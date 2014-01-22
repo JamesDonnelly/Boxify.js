@@ -76,6 +76,6 @@ For example:
 
 ```
 <figure data-background="#f00" data-color="white">
-...
+	...
 </figure>
 ```
