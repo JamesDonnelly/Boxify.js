@@ -1,8 +1,8 @@
-![Boxify.js](http://i.imgur.com/h0u3TZG.png)
-
 # Boxify.js
 
 Boxify.js is a jQuery plugin which lets you easily add Pinterest-like boxes to your website.
+
+![Boxify.js](http://i.imgur.com/h0u3TZG.png)
 
 ## Adding Boxify.js to your website
 
