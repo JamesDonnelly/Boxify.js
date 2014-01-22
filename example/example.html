@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<style type="text/css">
+		#wrapper {
+			width: 920px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<section id="boxy">
+			<figure>
+				<img src="http://placehold.it/200x200/ffaa00/ffffff"/>
+				<figcaption>
+					<h4>Welcome to Boxify.js</h4>
+					<p>Boxify.js is a jQuery plugin which lets you easily add Pinterest-like boxes to your page.</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="http://placehold.it/200x100/00aaff/ffffff"/>
+				<figcaption>
+					<h4>Custom Global Styling</h4>
+					<p>Various style properties can be passed in to the boxify constructor to allow you to easily control the appearance.</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="http://placehold.it/200x100/aa00ff/ffffff"/>
+				<figcaption>
+					<h4>The Boxes</h4>
+					<p>Each box by default is 200px wide with 10px padding on each side.</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="http://placehold.it/200x200/ff00aa/ffffff"/>
+				<figcaption>
+					<h4>Box Heights</h4>
+					<p>As you can see, the height of each box is determined by its content - the height of the image and the height of the text. For the best results you should aim to keep your image heights proportional to the line heights of the text.</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<figcaption>
+					<h4>Text Placement</h4>
+					<p>As you can see, the text can go above or below each image; this is entirely up to you and is controlled by the HTML.</p>
+				</figcaption>
+				<img src="http://placehold.it/200x100/aaff00/4a4646"/>
+			</figure>
+			<figure data-background="#333" data-color="#fff" data-border-color="#333">
+					<img src="logo.png" alt="Boxify.js Logo"/>
+					<figcaption>
+						<h1>Boxify.js</h1>
+					</figcaption>
+			</figure>
+			<figure>
+				<a href="https://github.com/JamesDonnelly/Boxify.js">
+					<img src="github-logo.png"/>
+				</a>
+				<figcaption>
+					<h2>Download</h2>
+					<p>Boxify.js is available for you to download on <a href="#">GitHub</a>!</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<figcaption>
+					<h4>Individual Box Styling</h4>
+					<p><code>data-*</code> attributes can be added to each box to give it its own style. Notice how the title box is dark with light text.</p>
+				</figcaption>
+				<img src="http://placehold.it/200x300/ffaaaa/4a4646"/>
+			</figure>
+			<figure>
+				<img src="http://placehold.it/200x200/00ffaa/4a4646"/>
+			</figure>
+			<figure>
+				<figcaption>
+					<h4>Content</h4>
+					<p>You don't have to have an image in your box; nor do you have to have text, this is also controlled by the HTML.</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="http://placehold.it/200x200/aaaaff/4a4646"/>
+			</figure>
+		</section>
+	</div>
+	<script type="text/javascript" src="../jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../boxify.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#boxy').boxify({width: "220px"});
+		});
+	</script>
+</body>
+</html>
