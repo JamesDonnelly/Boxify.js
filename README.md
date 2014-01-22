@@ -1,4 +1,4 @@
-![Boxify.js](http://i.imgur.com/DQGWjPX.png)
+![Boxify.js](http://i.imgur.com/h0u3TZG.png)
 
 # Boxify.js
 
