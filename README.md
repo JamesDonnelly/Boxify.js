@@ -48,7 +48,7 @@ The constructor accepts an object with optional properties:
 
  * `background` controls the background of each box;
  * `border-color` controls the border color;
- * `color` controls the color;
+ * `color` controls the text color;
  * `margin` controls the margin;
  * `padding` controls the padding;
  * `width` controls the width.
@@ -59,13 +59,23 @@ For example:
 ```
 // This sets our boxes to have a red background and a width of 300px
 $('#boxy').boxify({
-	background: red,
+	background: "#f00",
 	width: "300px"
 });
+```
 
-// This sets our boxes to also have a red background and a width of 300px
-$('#boxy').boxify({
-	background: #f00,
-	width: 300
-});
+### Individual Box Styling
+
+Each individual box accepts a `data-*` attribute to style it individually:
+
+ * `data-background` sets the background color;
+ * `data-border-color` sets the border color;
+ * `data-color` sets the text color.
+
+For example:
+
+```
+<figure data-background="#f00" data-color="white">
+...
+</figure>
 ```
