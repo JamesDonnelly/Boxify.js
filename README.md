@@ -46,5 +46,26 @@ There are two methods of styling Boxify boxes:
 
 The constructor accepts an object with optional properties:
 
- * `width` controls the width of each box.
- * `background` controls the background color of each box (e.g. #f00, red, rgb(255,0,0))
+ * `background` controls the background of each box;
+ * `border-color` controls the border color;
+ * `color` controls the color;
+ * `margin` controls the margin;
+ * `padding` controls the padding;
+ * `width` controls the width.
+ * 
+ 
+For example:
+
+```
+// This sets our boxes to have a red background and a width of 300px
+$('#boxy').boxify({
+	background: red,
+	width: "300px"
+});
+
+// This sets our boxes to also have a red background and a width of 300px
+$('#boxy').boxify({
+	background: #f00,
+	width: 300
+});
+```
