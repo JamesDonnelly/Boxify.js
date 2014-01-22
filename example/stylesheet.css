@@ -4,6 +4,12 @@ html, body {
 	margin: 0;
 }
 
+a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 figure a,
 figure img,
 figure figcaption {
