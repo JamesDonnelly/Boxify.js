@@ -47,5 +47,4 @@ There are two methods of styling Boxify boxes:
 The constructor accepts an object with optional properties:
 
 > `width` controls the width of each box.
-
 > `background` controls the background color of each box (e.g. #f00, red, rgb(255,0,0))
